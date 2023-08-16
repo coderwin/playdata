@@ -5,6 +5,15 @@ public class Staff {
 	private String name;//이름
 	private int age;//나이
 	private String dept;//부서
+	
+	public Staff() {
+		
+	}
+	public Staff(String name, int age, String dept) {
+		this.name = name;
+		this.age = age;
+		this.dept = dept;
+	}
 	public String getName() {
 		return name;
 	}

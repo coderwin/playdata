@@ -6,6 +6,16 @@ public class Teacher {
 	private int age;// 나이
 	private String subject;// 담당과목
 	
+	public Teacher() {
+		
+	}
+	public Teacher(String name, int age, String subject) {
+		this.name = name;
+		this.age = age;
+		this.subject = subject;
+	}
+
+
 	public String getName() {
 		return name;
 	}

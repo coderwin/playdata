@@ -42,6 +42,52 @@ public class TestMovie {
 		movie3.setTitle("아바타2");
 		movie3.setGenre("SF2");
 		
+		System.out.println("--------생성자로 객체 생성하기-------------");
+		Movie movie4 = new Movie("겨울왕국3", "애니메이션");
+		movie4.play();
+		
+		System.out.println("-----------성능 검사---------------");
+		
+		long startTime = System.currentTimeMillis();
+		System.out.println(startTime);
+		
+		// 시험해 볼 코드
+		Movie nextMovie = new Movie("겨울", "애니");
+		nextMovie.play();
+		
+		long endTime = System.currentTimeMillis();
+//		System.out.println(endTime);
+		
+		long takenTimes = endTime - startTime;
+//		System.out.println(takenTimes);
+		
+		
+		startTime = System.currentTimeMillis();
+		
+		Movie nextMovie2 = Movie.create("겨우", "애니");
+		nextMovie2.play();
+		
+		endTime = System.currentTimeMillis();
+		
+		takenTimes = endTime - startTime;
+		System.out.println(takenTimes);
+		
+		
+		startTime = System.currentTimeMillis();
+		
+		Movie nextMovie3 = Movie.createV2("결울", "애니");
+		nextMovie3.play();
+		
+		endTime = System.currentTimeMillis();
+		
+		takenTimes = endTime - startTime;
+		System.out.println(takenTimes);
+		
+		
+		
+		
+		
+		
 		
 	}
 
