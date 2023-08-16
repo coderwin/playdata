@@ -1,5 +1,10 @@
 package oop.basic;
 
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
 public class MyMethodDemo {
 
 	/**
@@ -24,4 +29,21 @@ public class MyMethodDemo {
 			System.out.println();
 		}
 	}
+	
+	public static void main(String[] args) throws IOException {
+		
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out), 50);
+		MyMethodDemo mth = new MyMethodDemo();
+		
+		
+		System.out.println(args);
+		System.out.println(args[0]);
+		bw.write(args[1] + "\n");
+		bw.write(args[2]);
+
+		bw.flush();
+//		printGuGu();
+//		mth.printGuGu();
+	}
+	
 }
