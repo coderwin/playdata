@@ -1,6 +1,6 @@
 package oop.basic;
 
-public class ArratExamTest {
+public class ArrayExamTest {
 	
 	public static void main(String[] args) {
 		// int 배열 생성하기
