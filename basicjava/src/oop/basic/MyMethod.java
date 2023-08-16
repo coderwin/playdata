@@ -7,6 +7,20 @@ import java.io.OutputStreamWriter;
 // 메소드를 유형별로 정의
 public class MyMethod {
 	
+	
+	// 4. 매개변수, 리턴갑싱 모두 있는 메소드
+	/**
+	 * => 숫자(정수) 2개를 매개변수로 전달받아서
+	 * => 메소드 선언부에 리턴타입이 정의되는
+	 *    마지막 문작에서 결과값 리턴
+	 */
+	public int add(int num1, int num2) {
+		int result = 0;
+		result = num1 + num2;
+		return result;
+	}
+	
+	
 	//3. 리턴값이 없고 매개변수가 두 개인 메소드
 	//=> 출력할 기호, 출력할 횟수를 매개변수로 전달 받아 사용
 	//   할 수 있도록 메소드를 정의
@@ -35,6 +49,7 @@ public class MyMethod {
 		}
 		System.out.println();
 	}
+	
 	
 //	BufferedWriter bw;
 	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out), 5);

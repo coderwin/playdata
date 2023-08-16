@@ -24,6 +24,9 @@ public class MyMethodTest {
 		obj.display("a", 3);
 		obj.display("ok", 20);
 		
+		//4. 리턴값이 있고 매개변수가 두 개인 메소드이 호출
+		int resdata = obj.add(25, 10);
+		
 	}
 
 }
