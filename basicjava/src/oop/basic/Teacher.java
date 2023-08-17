@@ -1,36 +1,15 @@
 package oop.basic;
 
-public class Teacher {
+public class Teacher extends Person {
 	
-	private String name;// 이름
-	private int age;// 나이
 	private String subject;// 담당과목
 	
 	public Teacher() {
 		
 	}
 	public Teacher(String name, int age, String subject) {
-		this.name = name;
-		this.age = age;
+		super(name, age);
 		this.subject = subject;
-	}
-
-
-	public String getName() {
-		return name;
-	}
-
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
 	}
 
 	public String getSubject() {
@@ -46,9 +25,9 @@ public class Teacher {
 	 */
 	public void display() {
 		System.out.println("이 름 : "
-				+ name
+				+ getName()
 				+ " 나 이 : "
-				+ age
+				+ getAge()
 				+ " 담당과목 : "
 				+ subject);
 		
