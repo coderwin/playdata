@@ -8,7 +8,7 @@ package inheritance;
  */
 public class Coffee extends Beverage {
 	
-	private String name;
+	private String name;	// 이름
 	
 	// 생성자
 	public Coffee(int price, String name) {

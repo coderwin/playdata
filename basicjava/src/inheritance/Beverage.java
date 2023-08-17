@@ -32,7 +32,4 @@ public class Beverage {
 	public void setType(String type) {
 		this.type = type;
 	}
-	
-	
-
 }
