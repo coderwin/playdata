@@ -20,8 +20,8 @@ public class Alcohol extends Drink {
 	/**
 	 * 기능 : 타이틀 출력
 	 */
-	@Override
-	public void printTitle() {
+//	@Override
+	public static void printTitle() {
 		System.out.println("상품명(도수[%])\t단가\t수량\t금액");
 	}
 	/**

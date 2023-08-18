@@ -56,7 +56,7 @@ public class Drink {
 	/**
 	 * 기능 : 타이틀 출력
 	 */
-	public void printTitle() {
+	public static void printTitle() {
 		System.out.println("상품명\t단가\t수량\t금액");
 	};
 
