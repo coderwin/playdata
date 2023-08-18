@@ -20,7 +20,4 @@ public class Circle extends Shape {
 		double area = radius * radius * pi;
 		super.setArea(area);
 	}
-	
-	
-
 }

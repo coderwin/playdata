@@ -21,10 +21,12 @@ public class Dog extends Animal {
 	public void run(int hours) {
 		
 		// 반시간만 이동한다.
-		double moveTime = (double)hours / 2;
+//		double moveTime = hours / 2;
+		double moveTime = hours / 2.0;
 
 		double distance = super.getSpeed() * moveTime;
-		setDistance(distance);
+		double currentDistance = getDistance();
+		setDistance(currentDistance + distance);
 	}	
 
 }
