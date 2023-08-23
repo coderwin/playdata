@@ -20,11 +20,13 @@ public class SwitchTest3 {
 			System.out.println("문자열도 스위치문에 쓸 수 있다.");
 			break;
 		}
+
 		
 		switch(data/5) {
 		case 2:
 			System.out.println("값이 나왔다.");
 			break;
 		}
+
 	}
 }

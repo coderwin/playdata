@@ -10,12 +10,21 @@ public class SwitchTest2 {
 		System.out.print("주민번호입력: ");
 		String ssn = key.next();
 		switch(ssn.charAt(0)) {
+
+		case 1:
+		case 3:
+			System.out.println("남자");
+			break;
+		case 2:
+		case 4:
+
 		case '1':
 		case '3':
 			System.out.println("남자");
 			break;
 		case '2':
 		case '4':
+
 			System.out.println("여자");
 			break;
 		default:
