@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 
+
 public class MyMethodDemo {
 
 	/**
@@ -45,5 +46,5 @@ public class MyMethodDemo {
 //		printGuGu();
 //		mth.printGuGu();
 	}
-	
+
 }

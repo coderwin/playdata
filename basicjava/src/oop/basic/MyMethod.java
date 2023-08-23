@@ -21,6 +21,7 @@ public class MyMethod {
 	}
 	
 	
+
 	//3. 리턴값이 없고 매개변수가 두 개인 메소드
 	//=> 출력할 기호, 출력할 횟수를 매개변수로 전달 받아 사용
 	//   할 수 있도록 메소드를 정의
@@ -50,7 +51,6 @@ public class MyMethod {
 		System.out.println();
 	}
 	
-	
 //	BufferedWriter bw;
 	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out), 5);
 	//1. 매개변수 없고 리턴값이 없는 메소드
@@ -63,5 +63,6 @@ public class MyMethod {
 		bw.flush();
 //		System.out.println();
 	}
+	
 
 }

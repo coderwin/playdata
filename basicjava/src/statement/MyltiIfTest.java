@@ -12,7 +12,11 @@ public class MyltiIfTest {
 		int ssn = key.nextInt();
 		if(ssn==1 | ssn==3) {
 			System.out.println("남자");
+
 		} else if(ssn==2 && ssn==4) {
+
+		} else if(ssn==2 | ssn==4) {
+
 			System.out.println("여자");
 		} else {
 			System.out.println("남자");
